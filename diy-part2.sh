@@ -39,8 +39,8 @@ sed -i '/exit 0/i\chmod +x /etc/init.d/*' package/lean/default-settings/files/zz
 # 拉取软件包
 
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
-#git clone https://github.com/kenzok8/small package/small
-git clone https://github.com/soapmancn/small package/small
+# git clone https://github.com/kenzok8/small package/small
+# git clone https://github.com/soapmancn/small package/small
 # git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
 # svn co https://github.com/immortalwrt-collections/openwrt-gowebdav/trunk/luci-app-gowebdav package/luci-app-gowebdav
 # svn co https://github.com/immortalwrt-collections/openwrt-gowebdav/trunk/gowebdav package/gowebdav
@@ -51,7 +51,9 @@ git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-app-argon-config 
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-unblockneteasemusic-go package/luci-app-unblockneteasemusic-go
 # git clone --depth 1 https://github.com/brvphoenix/luci-app-wrtbwmon package/deng/luci-app-wrtbwmon
 # git clone --depth 1 https://github.com/brvphoenix/wrtbwmon package/deng/wrtbwmon
-
+git clone https://github.com/xiaorouji/openwrt-passwall-packages package/helloworld
+git clone https://github.com/xiaorouji/openwrt-passwall package/small1
+git clone https://github.com/vernesong/OpenClash package/openclash
 
 # 删除重复包
 
