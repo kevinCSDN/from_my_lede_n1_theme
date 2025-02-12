@@ -65,15 +65,15 @@ rm -rf package/small-package/luci-app-netdata
 # rm -rf package/small-package/qBittorrent-static
 # rm -rf package/small-package/qBittorrent
 # rm -rf package/small-package/qbittorrent
-rm -rf feeds/luci/themes/luci-theme-argon
+# rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf package/small-package/luci-app-openvpn-server
 rm -rf package/small-package/openvpn-easy-rsa-whisky
 # rm -rf package/small-package/luci-app-wrtbwmon
 # rm -rf package/small-package/wrtbwmon
 rm -rf package/small-package/luci-app-koolproxyR
 rm -rf package/small-package/luci-app-godproxy
-rm -rf package/small-package/luci-app-argon*
-rm -rf package/small-package/luci-theme-argon*
+#rm -rf package/small-package/luci-app-argon*
+#rm -rf package/small-package/luci-theme-argon*
 rm -rf package/small-package/luci-app-amlogic
 rm -rf package/small-package/luci-app-unblockneteasemusic
 rm -rf package/small-package/upx-static
