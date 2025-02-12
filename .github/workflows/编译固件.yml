@@ -113,6 +113,13 @@ jobs:
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
+    - name: cache
+      if: github.event.inputs.cache == 'true' && github.event.inputs.cache != 'false'
+      uses: klever1988/cachewrtbuild@main
+      with:
+        ccache: 'true'
+        prefix: ${{ github.workspace }}/openwrt
+
     - name: 加载自定义feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
